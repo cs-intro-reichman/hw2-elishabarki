@@ -9,7 +9,7 @@ public class TestRandom {
             if (a > 0.5) {
                 more += 1;
             }
-            if (a <= 0.5) {
+            if (a <= 0.5){
                 less += 1;
             }
         }       
