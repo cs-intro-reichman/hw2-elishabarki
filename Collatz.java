@@ -7,7 +7,7 @@ public class Collatz {
         int num = 0;
 
         if (mode.equals("v")) {
-            System.out.println("1 4 2 1  (4)");
+            System.out.println("1 4 2 1 (4)");
             for (int i = 2; i <= n; i++) {
                 num = i;
                 ripetition = 0;
@@ -21,7 +21,7 @@ public class Collatz {
                     ripetition ++;
                     if (num == 1) {  
                         ripetition ++;
-                        System.out.println("1  ("+ripetition+")");  
+                        System.out.println("1 ("+ripetition+")");  
                         num = 0;
                     }
                 }    
