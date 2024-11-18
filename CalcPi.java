@@ -3,7 +3,7 @@ public class CalcPi {
 
         int n = Integer.parseInt(args[0]);
         double pi = 0.0;  
-        System.out.println("pi according to java: " + Math.PI);
+        System.out.println("pi according to Java: " + Math.PI);
 
         for (int i = 0; i < n; i++) {
         double d = ( (Math.pow(-1, i))/(i*2+1) ); 
